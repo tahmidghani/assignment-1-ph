@@ -1,5 +1,5 @@
-body{
-  background-color: #F5F8FF;
+body {
+  background-color: #f5f8ff;
 }
 
 /* Google Font CSS */
@@ -47,7 +47,7 @@ nav h3 {
 
 /* banner styles */
 
-.banner{
+.banner {
   max-width: 905px;
   text-align: center;
   align-items: center;
@@ -56,13 +56,13 @@ nav h3 {
   justify-items: center;
 }
 
-.banner h1{
+.banner h1 {
   font-size: 65px;
   font-weight: bold;
 }
 
 /* header styles */
-header{
+header {
   background-image: url(../Assets/Hero-bg.png);
   height: 700px;
   background-repeat: no-repeat;
@@ -71,36 +71,36 @@ header{
 
 /* Action section styles */
 
-.action{
+.action {
   margin: 115px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.action .action-content{
+.action .action-content {
   max-width: 500px;
 }
 
-.action .action-content h2{
+.action .action-content h2 {
   font-size: 42px;
   font-weight: bold;
 }
 
-.action .action-content p{
+.action .action-content p {
   font-size: 24px;
   color: rgba(37, 36, 50, 0.5);
   margin-top: -20px;
 }
 
-.action img{
+.action img {
   width: 450px;
   border-radius: 48px;
 }
 
 /* productive section */
 
-.productive{
+.productive {
   background-color: rgba(78, 71, 255, 0.1);
   margin: 150px;
   border-radius: 24px;
@@ -108,26 +108,91 @@ header{
   padding: 50px 0;
 }
 
-.productive h2{
+.productive h2 {
   font-size: 38px;
   text-align: center;
 }
-.productive-container{
+.productive-container {
   display: flex;
   justify-content: center;
 }
-.productive-container-item{
+.productive-container-item {
   text-align: center;
   margin: 0 160px;
 }
-.productive-container-item h1{
+.productive-container-item h1 {
   font-size: 80px;
   font-weight: bold;
   color: #4e47ff;
   line-height: 0;
 }
-.productive-container-item p{
+.productive-container-item p {
   font-size: 20px;
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   line-height: 0;
+}
+
+/* testimonial section style */
+.testimonial {
+  margin: 0 150px;
+  margin-bottom: 150px;
+}
+.testimonial .testimonial-container {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial .testimonial-item {
+  background-color: white;
+  border: #f2eded;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 14px;
+  padding: 25px;
+  max-width: 380px;
+}
+.testimonial .testimonial-user-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.testimonial .testimonial-user-container p,
+h4 {
+  line-height: 0;
+}
+.testimonial .testimonial-user-container img {
+  border-radius: 50%;
+  height: fit-content;
+}
+.testimonial h2 {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonial .testimonial-item img {
+  margin-bottom: 10px;
+}
+
+.testimonial .testimonial-container .testimonial-item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.testimonial .testimonial-container .testimonial-item p {
+  font-size: 16px;
+}
+
+.testimonial
+  .testimonial-container
+  .testimonial-item
+  .testimonial-user-item
+  h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+}
+.testimonial .testimonial-container .testimonial-item .testimonial-user-item p {
+  font-size: 16px;
+  color: #b3b3b3;
 }
