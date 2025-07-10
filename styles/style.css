@@ -1,0 +1,22 @@
+/* Google Font CSS */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* nav stlyes */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
