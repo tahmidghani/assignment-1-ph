@@ -13,10 +13,83 @@
   font-style: normal;
 }
 
+/* shared styles */
+
+.btn-primary {
+  font-weight: 700;
+  color: white;
+  background-color: #4e47ff;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
 /* nav stlyes */
 
 nav {
   display: flex;
   justify-content: space-between;
   margin: 0 150px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+nav h3 {
+  font-size: 34px;
+  font-weight: 900;
+  color: #4e47ff;
+}
+
+/* banner styles */
+
+.banner{
+  max-width: 905px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.banner h1{
+  font-size: 65px;
+  font-weight: bold;
+}
+
+/* header styles */
+header{
+  background-image: url(../Assets/Hero-bg.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Action section styles */
+
+.action{
+  margin: 115px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action .action-content{
+  max-width: 500px;
+}
+
+.action .action-content h2{
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.action .action-content p{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-top: -20px;
+}
+
+.action img{
+  width: 450px;
+  border-radius: 48px;
 }
