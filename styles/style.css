@@ -222,3 +222,70 @@ h4 {
   font-weight: bold;
   line-height: 0.25;
 }
+
+/* get-in-touch section style */
+
+.get-in-touch {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 300px;
+}
+
+.get-in-touch h1 {
+  font-size: 97px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.get-in-touch form {
+  width: 50%;
+}
+
+.get-in-touch form input {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: #d6dded;
+  border-style: solid;
+  padding: 16px 20px;
+  margin: 10px 0;
+}
+
+.get-in-touch form textarea {
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border-color: #d6dded;
+  border-style: solid;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  color: #8987a1;
+  padding: 50px 150px;
+  margin: 0 auto;
+  border-width: 1px;
+  border-color: transparent;
+  border-top: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  justify-content: center;
+}
+footer h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+  margin-bottom: 20px;
+}
+footer p {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+footer .footer-link-container a {
+  text-decoration: none;
+  color: #8987a1;
+  margin: 0 20px;
+}
