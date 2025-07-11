@@ -196,3 +196,29 @@ h4 {
   font-size: 16px;
   color: #b3b3b3;
 }
+
+/* banner2 section style*/
+
+.banner2 {
+  background-color: white;
+  margin: 150px;
+  padding: 70px 150px;
+  text-align: center;
+  border-radius: 14px;
+}
+.banner2 img {
+  border-radius: 48px;
+}
+.banner2 .banner2-container {
+  margin-bottom: 20px;
+}
+.banner2 .banner2-container p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 150%;
+}
+.banner2 .banner2-container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 0.25;
+}
