@@ -27,6 +27,14 @@ body {
   font-size: 16px;
   border-color: transparent;
   border-radius: 10px;
+  transition-duration: 500ms;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: #4e47ff;
+  color: #4e47ff;
+  border-style: solid;
 }
 
 /* nav stlyes */
